@@ -7,9 +7,9 @@ resource aws_vpc "hashicat" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
 
-  tags = {
-    Name = "${var.prefix}-vpc"
-  }
+#   tags = {
+#     Name = "${var.prefix}-vpc"
+#   }
 }
 
 resource aws_subnet "hashicat" {
