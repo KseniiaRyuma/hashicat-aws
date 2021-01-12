@@ -1,3 +1,7 @@
+provider "terraform" {
+  version = "0.12.10"
+}
+
 provider "aws" {
   version = "~> 2.0"
   region  = "${var.region}"
